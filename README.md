@@ -37,8 +37,3 @@ Every time the ball hits a paddle, its velocity is multiplied by 1.05, increasin
 
 [`demo/pong-demo.mp4`](demo/pong-demo.mp4). The folder is included
 
-## Capturing the submission assets
-
-1. Run the game with `love .`.
-2. Take a screenshot using your operating system's screenshot shortcut and save the image as `screenshots/pong.png`.
-3. Record a short gameplay clip with a screen recorder, save it as `demo/pong-demo.mp4`, and include both files in your submission commit.
