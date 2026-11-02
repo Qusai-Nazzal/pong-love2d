@@ -43,6 +43,10 @@ end
 function love.update(dt)
     local windowWidth, windowHeight = love.graphics.getDimensions()
 
+    if love.keyboard.isDown("escape") then
+        love.event.quit()
+    end
+
     -- dt is elapsed time in seconds. Multiplying by it makes movement frame-rate independent.
     if love.keyboard.isDown("w") then leftPaddle.y = leftPaddle.y - leftPaddle.speed * dt end
     if love.keyboard.isDown("s") then leftPaddle.y = leftPaddle.y + leftPaddle.speed * dt end
@@ -94,3 +98,4 @@ function love.draw()
     love.graphics.printf(tostring(leftScore), windowWidth / 2 - 100, 30, 80, "center")
     love.graphics.printf(tostring(rightScore), windowWidth / 2 + 20, 30, 80, "center")
 end
+
