@@ -1,7 +1,7 @@
 # Pong — LÖVE 2D
 
 **Student:** Qusai Nazzal  
-**Class / Section:** [Fill in your class and section]
+**Class / Section:** AI In Gaming section 1
 
 A simple two-player Pong game made with Lua and LÖVE 2D. Each player controls a paddle on their side of the screen and tries to send the ball past the opponent. The game includes keyboard controls, wall and paddle collisions, a score display, and progressive ball speed: each paddle hit makes the ball 5% faster, up to a playable maximum. After a point, the ball returns to the center at its starting speed.
 
@@ -31,11 +31,11 @@ Every time the ball hits a paddle, its velocity is multiplied by 1.05, increasin
 
 ## Screenshot
 
-Add your own screenshot at [`screenshots/pong.png`](screenshots/pong.png). The folder is included, but no screenshot has been fabricated.
+[`screenshots/pong.png`](screenshots/pong.png). The folder is included
 
 ## Demo video
 
-Record your own gameplay demo and save it at [`demo/pong-demo.mp4`](demo/pong-demo.mp4). The folder is included, but no video has been fabricated.
+[`demo/pong-demo.mp4`](demo/pong-demo.mp4). The folder is included
 
 ## Capturing the submission assets
 
