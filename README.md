@@ -31,7 +31,7 @@ Every time the ball hits a paddle, its velocity is multiplied by 1.05, increasin
 
 ## Screenshot
 
-[`screenshots/pong.png`](screenshots/pong.png). The folder is included
+[`screenshots/`](screenshots). The folder is included
 
 ## Demo video
 
